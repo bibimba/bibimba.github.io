@@ -1,0 +1,17 @@
+var x;
+var y;
+
+function setup() {
+  // 캔버스를 생성
+  createCanvas(400, 400);
+  x = width / 2;
+  y = height / 2;
+}
+
+function draw() {
+  // 배경 칠하기
+  background(50);
+  stroke(255);
+  strokeWeight(10);
+  point(x, y);
+}
